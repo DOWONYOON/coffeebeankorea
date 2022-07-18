@@ -1,0 +1,130 @@
+
+        * {margin: 0; padding: 0; list-style: none; font-family: 'Lato', sans-serif;}
+        #toggle { display:none; width: 100%; height: 120px; background-color: #2f1c11; }
+        #toggle_wrap { width: 1210px; height: 100%; margin: auto;}
+        #toggle_wrap>h4 { font-size: 18px; color: #fff; font-weight: 500; float: left; margin-top: 45px;}
+        #toggle_wrap>h4>span { color: rgb(226, 156, 6);}
+        #toggle_btn { width: 370px; height: 100%; float: right; }
+        #toggle_btn>button:nth-child(1) { font-size: 14px; width: 170px; height: 35px; color: #000; background-color: #fff; border: none; line-height: 35px; margin-top: 40px; } 
+        #toggle_btn>button:nth-child(2) { font-size: 14px; width: 170px; height: 35px; color: #fff; background-color: transparent; border: 1px solid #fff; box-sizing: content-box; line-height: 35px; margin-left: 20px;}
+        /* 2번째 토글 */
+        #toggle2 { display:none; width: 100%; height: 80px; background-color: #eee; position: absolute; top: 100px; left: 0; line-height: 80px;}
+        #toggle2>h4 {  font-weight: 500;}
+        #toggle2>img { position: absolute; right: 0; top: -5px; cursor: pointer;}
+        #search { cursor: pointer;}
+        /*  */
+        header { width: 100%; position: fixed; top: 0; border-bottom: 1px solid #ccc; z-index: 999;}
+        #header1 { width: 100%; height: 40px; background-color: #eee; line-height: 40px; }
+        #header2 { width: 100%; height: 100px; background-color: #FFF; }
+        #header1_box { width: 1210px; height: 40px; margin: auto; }
+        #header2_box { width: 1210px; height: 100px;  margin: auto; line-height: 100px; text-align: center; position: relative; }
+        #header2 img { float:right;}
+        #header1_box ul { float:right; }
+        #header1_box ul li{ margin-left: 20px; font-size: 14px;  float: left; cursor: pointer; position: relative;} 
+        #header1_box ul li:last-child { width: 60px; height: 40px; background: #2f1c11;}
+        #header2_logo { margin-top: 15px; width: 98px; height: 72px; float: left; background: url(images/logo.png) top left no-repeat; background-size: cover;}
+        #toggle_img1 { width: 20px; height: 25px; position: absolute; left: 0; top: 0; padding-left: 20px; padding-top: 7px;} 
+        #toggle_img2 { display:none; width: 30px; height: 30px; position: absolute; left: 0; top: 0; padding-left: 15px; padding-top: 5px;} 
+        #header1_box ul li:first-child { border-right: 1px solid #ddd; padding-right: 20px;}
+        #header2_box>ul>li { position: relative; display: inline-block; margin-left: 60px; font-size: 14px; font-weight: 900;} 
+        #header2_box>ul>li:hover { color: #d4641a; cursor: pointer;}
+         /* ser1시작 */
+        #ser1 { display: none; width: 1210px; height: 340px; position: absolute; top: 99px; left: -240px;  background-color: #eee; }
+        #ser1 ul { padding-left: 30px; font-weight: 500; color: #000;  width: 210px; height: 60px; float: left; margin-top: 30px;  line-height: 25px; text-align: left; font-size: 13px;}
+        #ser1 ul li:first-child { font-size: 14px; font-weight: 900; }
+        /* ser2 시작 */
+        #ser2 { display: none; width: 570px; height: 230px; position: absolute; top: 99px; left: -30px;  background-color: #eee; }
+        #ser2 ul { padding-top: 30px; padding-left: 30px; font-weight: 500; color: #000;  width: 240px; height: 150px; float: left; margin-top: 2px;  line-height: 25px; text-align: left; font-size: 13px;}
+        #ser2 ul li:first-child { font-size: 14px; font-weight: 900; }
+        /* ser3 시작 */
+        #ser3 { display: none; width: 780px; height: 350px; position: absolute; top: 99px; left: -130px;  background-color: #eee; }
+        #ser3 ul { padding-top: 30px; padding-left: 40px; font-weight: 500; color: #000;  width: 150px; height: 150px; float: left; margin-top: 2px;  line-height: 25px; text-align: left; font-size: 13px;}
+        #ser3 ul li:first-child { font-size: 14px; font-weight: 900; }
+        /* ser4 시작 */
+        #ser4 { display: none; text-align: left; width: 200px; height: 130px; position: absolute; top: 99px; left: -50px;  background-color: #eee; line-height: 30px; }
+        #ser4 ul { padding-top: 20px; color: rgb(77, 43, 6); padding-left: 40px;}
+        /* ser5 시작 */
+        #ser5 { display: none;  width: 1000px; height: 220px; position: absolute; top: 99px; left: -550px;  background-color: #eee; }
+        #ser5 ul { padding-top: 30px; padding-left: 40px; font-weight: 500; color: #000;  width: 150px; height: 120px; float: left; margin-top: 2px;  line-height: 25px; text-align: left; font-size: 13px;}
+        #ser5 ul li:first-child { font-size: 14px; font-weight: 900; }
+        #ser5 ul:nth-child(3) { width: 200px;}
+        /* ser6 시작 */
+        #ser6 { display: none; text-align: left; width: 200px; height: 230px; position: absolute; top: 99px; left: -50px;  background-color: #eee; line-height: 30px; }
+        #ser6 ul { padding-top: 20px; color: rgb(77, 43, 6); padding-left: 40px;}
+        /* 서브메뉴 마무리 */
+        #header2_box #logo { width: 100px; height: 100px; float: left; background: url(logo_new.jpg) no-repeat center; vertical-align: middle;} 
+        #header2_box #menu { width: 950px; height: 100px; background-color: #FFF; float: left; margin-left: 30px;}
+        #header2_box img { width: 20px; height: 20px; float: right;  padding-top: 35px; padding-right: 30px;}
+        /* header 마무리 */
+        #section1 { width: 100%; height: 700px; background: url(images/mainslide_pc.jpg) center no-repeat ; margin-top: 140px; }
+        #section1_1 { width: 100%; height: 300px; background: url(images/banner.jpg) center no-repeat; }
+
+        /* md_pick 시작 */
+        #mainslide_wrap { width: 1000px; height: 400px; margin: auto; position: relative; overflow: hidden;}
+        #mainslide { width: 2000px; height: 100%; background-color: #fff; position: absolute; left: 0px; top: 0;}
+        #md_pick { width: 1000px; height: 510px; margin: auto; }
+        #md_pick h2 { width: 1000px; height: 135px; text-align: center; line-height: 135px; color: rgb(231, 96, 5);}
+        #md_pick ul li{ width: 240px; height: 370px; float: left; margin: 5px; text-align: center; cursor: pointer; position: relative;}
+        #md_pick ul li img { width: 100%; height: 250px; }
+        #md_pick ul li h3 { font-size: 18px; color: rgb(51, 49, 49); font-weight: 900; margin-top: 5px;}
+        #md_pick ul li h4 { font-size: 12px; font-weight: 400; color: rgb(51, 49, 49); margin-top: 5px;}
+        #md_pick ul li h5 { font-size: 12px; color: rgb(231, 96, 5); font-weight: 400; margin-top: 5px;}
+        #mainslide button { transition:0.5s; display:none; position: absolute; left: 0; top: 150px; right: 0; margin: auto; width: 200px; height: 40px; background-color: #f38200; border: none; color: #fff;}
+        #md_pick ul li:hover button { display: block; cursor: pointer; }
+        /* md 버튼 시작 */
+        #md_pick_bt1 { width: 160px; height: 40px; margin: 20px auto; line-height: 40px; position: relative; }
+        #md_pick_bt1>img {border-right: 1px solid rgb(235, 229, 229); padding-right: 25px; border-right: 1px solid rgb(226, 202, 179);}
+        #md_pick_bt>li:nth-child(1) .md_pick_bt_off { position: absolute; left: 100px; top: 11px; z-index: 1; cursor: pointer;}
+        #md_pick_bt>li:nth-child(1) .md_pick_bt_on { position: absolute; left: 70px; top: 11px; z-index: 1; cursor: pointer;}
+        #md_pick_bt>li:nth-child(2) .md_pick_bt_off { position: absolute; left: 70px; top: 11px; cursor: pointer;}
+        #md_pick_bt>li:nth-child(2) .md_pick_bt_on { position: absolute; left: 100px; top: 11px; cursor: pointer;}
+        /* what's new 시작 */
+        #whats_new { width: 1236px; height: 680px; margin: auto; line-height: 20px; overflow: hidden;}
+        #whats_new_wrap { width: 1236px; height: 680px; position: relative; }
+        #whats_new_slide { width: 6300px; height: 100%; position: absolute; left: 0; top: 0; }
+        #whats_new_slide>li { display: inline-block; width: 380px; padding-right: 30px; transition: 0.5s;}
+        #whats_new_slide>li:hover { opacity: 0.7; cursor: pointer;} 
+        #whats_new_slide>img { width: 100%;}
+        #whats_new h2 { height: 100px; line-height: 100px; text-align: center; color: rgb(231, 96, 5);}
+        #whats_new ul li { width: 380px; height: 580px; margin: 16px; float: left; margin: 5px; text-align: center;}
+        #whats_new ul li h4 { margin-top: 15px; color: rgb(231, 96, 5); }
+        /* what 버튼 시작 */
+        #md_pick_bt2 { width: 190px; height: 40px; margin: 20px auto; line-height: 40px; position: relative; }
+        #md_pick_bt2>img {border-right: 1px solid rgb(235, 229, 229); padding-right: 25px; border-right: 1px solid rgb(226, 202, 179); }
+        #md_pick_bt3>li {display: inline-block;}
+        #md_pick_bt3>li:nth-child(1) .md_pick_bt_off2 { position: absolute; left: 70px; top: 11px; cursor: pointer;}
+        #md_pick_bt3>li:nth-child(1) .md_pick_bt_on2 { position: absolute; left: 70px; top: 11px; cursor: pointer; z-index: 1;}
+        #md_pick_bt3>li:nth-child(2) .md_pick_bt_off2 { position: absolute; left: 90px; top: 11px; cursor: pointer; z-index: 1;}
+        #md_pick_bt3>li:nth-child(2) .md_pick_bt_on2 { position: absolute; left: 90px; top: 11px; cursor: pointer;}
+        #md_pick_bt3>li:nth-child(3) .md_pick_bt_off2 { position: absolute; left: 110px; top: 11px; cursor: pointer; z-index: 1;} 
+        #md_pick_bt3>li:nth-child(3) .md_pick_bt_on2 { position: absolute; left: 110px; top: 11px; cursor: pointer;}
+        #md_pick_bt3>li:nth-child(4) .md_pick_bt_off2 { position: absolute; left: 130px; top: 11px; cursor: pointer; z-index: 1;}
+        #md_pick_bt3>li:nth-child(4) .md_pick_bt_on2 { position: absolute; left: 130px; top: 11px; cursor: pointer;}
+        #md_pick_bt3>li:nth-child(5) .md_pick_bt_off2 { position: absolute; left: 150px; top: 11px; cursor: pointer; z-index: 1;}
+        #md_pick_bt3>li:nth-child(5) .md_pick_bt_on2 { position: absolute; left: 150px; top: 11px; cursor: pointer;}
+
+        /* 12장 사진 */
+        #section2 { width: 100%; height: 600px; background-color: rgb(153, 80, 172); text-align: center; margin-top: 60px;}
+        #section2 h2 { color: #FFF; padding: 50px 0 20px 0; text-align: center;}
+        #section2 ul img { width: 100%; height: 200px; vertical-align: top; transition: transform 0.5s;}
+        #section2 ul { width: 1200px; margin: 0 auto; overflow: hidden;} 
+        #section2 ul li { float: left; overflow: hidden; }
+        #section2 ul li img:hover { transform: scale(1.2); cursor: pointer; opacity: 0.8;}
+        #orange_box {width: 380px; height: 35px; background-color: rgb(238, 121, 12); line-height: 35px; margin: auto; margin-top: 30px;  color: #fff; border: none;}
+        /* footer 시작 */
+        footer { width: 100%; height: 470px; background-color: #eee;  } 
+        #footer_box1 { width: 1200px; border-bottom: 1px solid rgb(43, 21, 1); margin: auto;}
+        #footer_box2 {  width: 1200px; margin: auto; }
+        #footer_box1 ul { width: 235px; margin: 40px 0;  display: inline-block; vertical-align: top; }
+        #footer_box1 ul li:first-child { color: rgb(255, 153, 0); font-size: 16px; font-weight: bold;}
+        #footer_box1 ul li { padding: 5px; font-size: 14px; text-align: left;}
+        hr { width: 1200px; margin: auto; color: #000;}
+        #box2_1 { padding-top: 30px; width: 900px; color: rgb(46, 44, 44); float: left; }
+        #box2_1 h5:first-child { margin-bottom: 15px; font-weight: 500;}
+        #box2_1 h5:first-child span { color:rgb(255, 94, 0);}
+        #box2_1 h5:last-child {font-weight: 500; line-height: 25px; }
+        #box2_2 { float: right; line-height: 20px; margin-top: 40px;}
+        #box2_2 li { float: left; margin-left: 16px; }
+        /* top버튼 */
+        #btn_top { position: fixed; right: 50px; bottom: 100px; cursor: pointer;}
+  
